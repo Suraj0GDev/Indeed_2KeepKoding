@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+
 
 public class CollectedUI : MonoBehaviour
 {
     [SerializeField] private FloatValueSO collected; // Reference to the ScriptableObject
-    [SerializeField] private TMP_Text collectedText; // Reference to the UI Text component
+    [SerializeField] private Text collectedText; // Reference to the UI Text component
 
     private void OnEnable()
     {
